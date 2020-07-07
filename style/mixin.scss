@@ -1,0 +1,17 @@
+@mixin flex($direction:row,$just-content:center,$align-items:center) {
+	display: flex;
+	flex-direction: $direction;
+	justify-content: $just-content;
+	align-items: $align-items;
+}
+@mixin border_bottom() {
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 0;
+	content: '';
+	transform: scaleY(.5);
+	border-bottom: 1px solid #E4E7ED;
+}

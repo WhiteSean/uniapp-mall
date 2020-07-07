@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "商城",
+  "usingComponents": {
+    "floor-list": "/components/custom-components/floor-list"
+  }
+}
